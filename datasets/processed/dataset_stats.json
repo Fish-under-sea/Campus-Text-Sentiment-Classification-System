@@ -1,0 +1,30 @@
+{
+  "total_samples": 2122,
+  "positive_samples": 390,
+  "negative_samples": 1052,
+  "neutral_samples": 680,
+  "train_samples": 1485,
+  "train_label_distribution": {
+    "positive": 270,
+    "negative": 742,
+    "neutral": 473
+  },
+  "val_samples": 318,
+  "val_label_distribution": {
+    "positive": 59,
+    "negative": 154,
+    "neutral": 105
+  },
+  "test_samples": 319,
+  "test_label_distribution": {
+    "positive": 61,
+    "negative": 156,
+    "neutral": 102
+  },
+  "split_method": "random",
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  }
+}
